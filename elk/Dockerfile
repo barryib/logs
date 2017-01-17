@@ -1,5 +1,4 @@
-
-FROM sebp/elk
+FROM sebp/elk:es240_l240_k460
 
 # overwrite existing file
 ADD /conf/nginx.conf /etc/logstash/conf.d/
