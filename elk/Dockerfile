@@ -5,6 +5,7 @@ ADD /conf/nginx.conf /etc/logstash/conf.d/
 #ADD /conf/syslog.conf /etc/logstash/conf.d/
 ADD /conf/custom-mappings.json /etc/logstash/
 ADD /conf/boxes.yaml /etc/logstash/
+ADD /conf/applications.yaml /etc/logstash/
 ADD /conf/patterns/* ${LOGSTASH_HOME}/patterns/
 RUN chown -R logstash:logstash ${LOGSTASH_HOME}/patterns
 
