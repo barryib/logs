@@ -13,3 +13,5 @@ services:
     volumes:
      - ./elk/conf:/conf
      - ./logs:/logs
+     - ./elk-data:/var/lib/elasticsearch
+     
